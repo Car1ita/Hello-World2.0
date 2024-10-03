@@ -13,16 +13,20 @@ main {
 
 .details {
     display: flex;
+    gap: 25px;
 }
 
 .details section{
     flex-grow: 1;
     flex-basis: 0;
     background: #eee;
-    padding: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 25px;
 }
 img {
     width: 100%;
+    border-radius 20px; 
 }
 
 h2{
@@ -31,4 +35,5 @@ h2{
 
 p{
     margin: 0;
+    line-height: 1.4em;
 }
